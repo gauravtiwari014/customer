@@ -1,0 +1,61 @@
+public class Customer12 {
+
+	String customerName;
+	int purchaseValue;
+	
+	public Customer12()
+	{
+		
+	}
+	
+	//SETTERS
+/*	public void setCustomerName(String customerName)
+	{
+		this.customerName = customerName;
+	}
+	public void setPurchaseValue(int purchaseValue)
+	{
+		this.purchaseValue = purchaseValue;
+	}*/
+	//GETTERS
+/*	public String getCustomerName()
+	{
+		return this.customerName;
+	}
+	public int getPurchaseValue()
+	{
+		return this.purchaseValue;
+	}*/
+	
+	public String getCustomerName() {
+		return customerName;
+	}
+
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+
+	public int getPurchaseValue() {
+		return purchaseValue;
+	}
+
+	public void setPurchaseValue(int purchaseValue) {
+		this.purchaseValue = purchaseValue;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Customer12 cust1 = new Customer12();
+		//Calling Setters to set value
+		cust1.setCustomerName("Neeraj");
+		cust1.setPurchaseValue(2500);
+		//Calling the Getters
+		System.out.println("The Customer Details are...");
+		System.out.println("Customer Name "+cust1.getCustomerName());
+		System.out.println("Customer Purchased goods worth "+cust1.getPurchaseValue());
+		
+
+	}
+
+}
+
